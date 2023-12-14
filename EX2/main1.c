@@ -4,7 +4,7 @@ int main()
 {
     int i = 8;
     if(i & (i-1)){
-        printf("ture");
+        printf("true");
     }
     else{
         printf("false");
