@@ -1,13 +1,11 @@
 #include <stdio.h>
-
-int main()
-{
+int main(){
     int i = 8;
-    if(i & (i-1)){
-        printf("true");
+    if (i & (i - 1)){
+        printf("flase");
     }
     else{
-        printf("false");
+        printf("ture");
     }
     return 0;
 }
